@@ -64,7 +64,7 @@ function onError(){
 
 function cameraCallback(imageData){
     var image = document.getElementById('myImage');
-    //image.src = imageData;
+    image.src = imageData;
     //take a photo using web browser
-     image.src = "data:image/jpeg;base64," + imageData;
+     //image.src = "data:image/jpeg;base64," + imageData;
 }
